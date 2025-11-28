@@ -1,0 +1,26 @@
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+// Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+// --------------------------------------------------------------------------------
+// Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+// Date        : Sun Dec  3 17:58:18 2023
+// Host        : DESKTOP-D2RDL1H running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub
+//               c:/Users/PC/OneDrive/Escritorio/UNIVERSIDAD/TOC/PRACTICAS/Practica_5/Practica_5.gen/sources_1/ip/pr5_mem_dig0/pr5_mem_dig0_stub.v
+// Design      : pr5_mem_dig0
+// Purpose     : Stub declaration of top-level module interface
+// Device      : xc7a35tcpg236-1
+// --------------------------------------------------------------------------------
+
+// This empty module with port declaration file causes synthesis tools to infer a black box for IP.
+// The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
+// Please paste the declaration into a Verilog source file or add the file as an additional source.
+(* x_core_info = "blk_mem_gen_v8_4_6,Vivado 2023.1" *)
+module pr5_mem_dig0(clka, wea, addra, dina, douta)
+/* synthesis syn_black_box black_box_pad_pin="wea[0:0],addra[5:0],dina[3:0],douta[3:0]" */
+/* synthesis syn_force_seq_prim="clka" */;
+  input clka /* synthesis syn_isclock = 1 */;
+  input [0:0]wea;
+  input [5:0]addra;
+  input [3:0]dina;
+  output [3:0]douta;
+endmodule
