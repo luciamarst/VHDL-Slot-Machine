@@ -3,7 +3,6 @@
 🎰 Welcome to the digital casino where the house is written in VHDL!
 
 <img width="1536" height="1024" alt="8bd2cd9a-70fe-4e59-945d-a5eea5c1a5b0" src="https://github.com/user-attachments/assets/3420ac78-2432-4543-913e-006fc3f99e70" />
-
 ## Description
 This project brings a classic slot machine to life inside an FPGA simulator. No coins, no noise, just pure HDL-powered gambling energy.
 
